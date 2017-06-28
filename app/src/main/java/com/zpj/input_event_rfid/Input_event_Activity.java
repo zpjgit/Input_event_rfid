@@ -28,8 +28,8 @@ public class Input_event_Activity extends AppCompatActivity {
         List<HashMap<String, String>> mylist = new ArrayList<HashMap<String, String>>();
         for(int i=0;i<10;i++) {
             HashMap<String, String> map = new HashMap<String, String>();
-            map.put("MyTitle", "www.zpj.com");
-            map.put("myText", "This is text");
+            map.put("MyTitle", "/dev/input/event5");
+            map.put("myText", ""+HardControl.Open());
             mylist.add(map);
         }
 
