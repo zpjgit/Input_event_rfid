@@ -9,15 +9,19 @@
 
     >
 
-    <TextView android:layout_height="wrap_content"
+    <TextView
+        android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:id="@+id/MyTitle"
-        android:textSize="20dip">
+        android:textSize="20dip"
+        >
     </TextView>
 
-    <TextView android:layout_height="wrap_content"
+    <TextView
+        android:layout_height="wrap_content"
         android:layout_width="fill_parent"
-        android:id="@+id/myText">
+        android:id="@+id/myText"
+        >
     </TextView>
 
 

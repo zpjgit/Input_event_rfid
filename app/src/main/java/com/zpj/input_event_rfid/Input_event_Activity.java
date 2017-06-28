@@ -5,9 +5,12 @@ import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
+import com.zpj.hardlibrary.HardControl;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import com.zpj.hardlibrary.*;
 
 public class Input_event_Activity extends AppCompatActivity {
 
@@ -19,6 +22,8 @@ public class Input_event_Activity extends AppCompatActivity {
         setContentView(R.layout.input_event_layout);
 
         List = (ListView) findViewById(R.id.MyListView);
+        HardControl hardControl = new HardControl();
+
         //构造数据源
         List<HashMap<String, String>> mylist = new ArrayList<HashMap<String, String>>();
         for(int i=0;i<10;i++) {
